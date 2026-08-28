@@ -146,7 +146,85 @@ See [github-repositories.md](implementations/github-repositories.md) for open-so
 
 ## Tutorials and Learning Resources
 
-Research papers, official documentation, tutorials, and other learning resources are collected here to help students understand uncertainty estimation, language-model evaluation, and hallucination detection.
+The following resources provide background and practical guidance for understanding Large Language Models, uncertainty estimation, model evaluation, and hallucination detection.
+
+### 1. Hugging Face — NLP Course
+
+**Description:**
+A free course covering natural language processing, transformer models, datasets, tokenization, model fine-tuning, and practical use of modern NLP models.
+
+**Why it is relevant:**
+Understanding tokenization and transformer-based language models provides the foundation for understanding token-level uncertainty.
+
+**Resource:**
+https://huggingface.co/learn/nlp-course
+
+---
+
+### 2. Hugging Face — Transformers Documentation
+
+**Description:**
+Official documentation for the Transformers library, including model loading, text generation, tokenizers, model outputs, and inference.
+
+**Why it is relevant:**
+Researchers studying token-level uncertainty can use Transformers to access model outputs and investigate token probabilities and logits.
+
+**Resource:**
+https://huggingface.co/docs/transformers/
+
+---
+
+### 3. PyTorch — Official Tutorials
+
+**Description:**
+Official tutorials covering tensors, neural networks, model inference, and deep-learning workflows using PyTorch.
+
+**Why it is relevant:**
+PyTorch can be used to process language-model outputs and implement mathematical calculations required for uncertainty estimation.
+
+**Resource:**
+https://docs.pytorch.org/tutorials/
+
+---
+
+### 4. EleutherAI — Language Model Evaluation Harness
+
+**Description:**
+The Language Model Evaluation Harness provides a framework for evaluating language models on standardized tasks and benchmarks.
+
+**Why it is relevant:**
+Systematic evaluation is important when comparing hallucination detection and uncertainty-estimation methods across different models and datasets.
+
+**Resource:**
+https://github.com/EleutherAI/lm-evaluation-harness
+
+---
+
+### 5. OpenAI — Practical Guide to Building with LLMs
+
+**Description:**
+Practical documentation and educational material covering the use and evaluation of large language models.
+
+**Why it is relevant:**
+Understanding how LLMs generate responses and how their outputs can be evaluated provides useful background for studying reliability and hallucination.
+
+**Resource:**
+https://platform.openai.com/docs/
+
+---
+
+## Recommended Learning Path
+
+A beginner can study these resources in the following order:
+
+1. **Learn NLP and Transformers** using the Hugging Face NLP Course.
+2. **Learn how transformer models work in practice** using the Hugging Face Transformers documentation.
+3. **Learn the underlying deep-learning operations** through PyTorch tutorials.
+4. **Learn systematic LLM evaluation** using the EleutherAI evaluation framework.
+5. **Study practical LLM development and evaluation** using official LLM documentation.
+
+This progression moves from basic NLP concepts toward practical model evaluation and research applications.
+
 
 ---
 
