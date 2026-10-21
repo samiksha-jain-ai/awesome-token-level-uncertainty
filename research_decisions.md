@@ -18,7 +18,7 @@
 
 ---
 
-## 1. Review scope summary (based only on the attached PDF)
+## 1. Review scope summary
 
 | Item | Content | Status |
 |---|---|---|
